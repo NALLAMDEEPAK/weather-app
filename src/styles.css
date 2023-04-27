@@ -17,6 +17,7 @@ body,.row{
 }
 .w{
     padding: 5% 0 1%;
+    font-size: 35px;
 }
 .t{
 padding: 1% 0;
@@ -58,7 +59,11 @@ padding-top: 12%;
      }
      .image{
         width:90%;
+        margin-top: 12%;
     } 
+    .w{
+        font-size: 25px;
+    }
     .tx{
         width:60% !important;
         display:inline-block !important;
@@ -85,6 +90,9 @@ padding-top: 12%;
      .image{
         width:90%;
     } 
+    .w{
+        font-size: 27px;
+    }
     .tx{
         width:60% !important;
         display:inline-block !important;
@@ -115,6 +123,9 @@ padding-top: 12%;
         width:60% !important;
         display:inline-block !important;
         margin:2% 2% 2% 0;
+    }
+    .w{
+        font-size: 29px;
     }
     .sub{
         margin:1% 0 2.5% 0;

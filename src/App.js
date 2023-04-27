@@ -69,9 +69,9 @@ async function UpdateWeather(placename){
       </div>
       </center>
     </div>
-     
+
     <I />
-    <div className="col-lg-1"></div>
+
    </div>
   </div>
     </div>
