@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useState, useEffect } from "react";
+import I from "./components/image"
 
 function App() { 
   useEffect(() => {
@@ -69,11 +70,7 @@ async function UpdateWeather(placename){
       </center>
     </div>
      
-    <div className="col-lg-5 col-sm-12 cen2" data-aos="fade-left">
-     <div className="right">
-       <center><img className="image" src="weather.png"></img></center>
-     </div>
-    </div>
+    <I />
     <div className="col-lg-1"></div>
    </div>
   </div>
