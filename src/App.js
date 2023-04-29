@@ -62,6 +62,7 @@ async function UpdateWeather(placename){
         <input className="form-control tx" id="xt" placeholder="Enter City" />
         <button className="btn btn-primary sub" type="submit" onClick={()=>{
            var placename=document.getElementById('xt').value;
+           document.getElementById('xt').value='';
            document.getElementById('all').style.display="none";
            document.getElementById('buffer').style.display="block";
            UpdateWeather(placename);
